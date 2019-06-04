@@ -247,6 +247,8 @@ nav a:active {
   border-radius: 2rem;
   border: 4px solid black;
   margin: 2rem;
+  width: 400px;
+  height: 400px;
 }
 .slogan {
   display: flex;
@@ -286,7 +288,7 @@ nav a:active {
   width: 50%;
   height: 4rem;
   background-color: #93b9a4;
-  color: silver;
+  color: black;
   border-radius: 2rem;
   cursor: pointer;
   text-align: center;
@@ -321,7 +323,12 @@ nav a:active {
 .article h2 {
   display: flex;
   justify-content: center;
-  font-size: 3rem;
+  font-size: 1rem;
+}
+@media (min-width: 840px) {
+  .article h2 {
+    font-size: 3rem;
+  }
 }
 .article p {
   font-size: 2rem;
@@ -331,7 +338,7 @@ nav a:active {
   bottom: 0;
   left: 50%;
   font-size: 1.6rem;
-  color: silver;
+  color: black;
   cursor: pointer;
   transform: translate(-50%);
 }
@@ -340,7 +347,7 @@ nav a:active {
   bottom: 0;
   left: 50%;
   font-size: 1.2rem;
-  color: silver;
+  color: black;
   cursor: pointer;
   transform: translate(-50%);
 }
@@ -352,7 +359,7 @@ nav a:active {
   bottom: 0;
   left: 50%;
   font-size: 2rem;
-  color: silver;
+  color: black;
   cursor: pointer;
   transform: translate(-50%);
 }
