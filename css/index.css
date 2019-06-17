@@ -337,7 +337,12 @@ nav a:active {
   }
 }
 .article p {
-  font-size: 2rem;
+  font-size: 1.5rem;
+}
+@media (min-width: 840px) {
+  .article p {
+    font-size: 2rem;
+  }
 }
 .article .open {
   position: absolute;
