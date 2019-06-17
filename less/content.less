@@ -139,17 +139,26 @@ nav a {
   flex-flow: column;
 }
 .article {
-  margin: 2rem;
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  margin: 1rem;
   border: 1px solid black;
   border-radius: 1rem;
   background-color: @Green-Dark;
   position: relative;
-  height: 5rem;
+  height: 34rem;
   overflow: hidden;
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
     0 17px 50px 0 rgba(0, 0, 0, 0.19);
   transition-duration: 0.4s;
-  margin: 3rem;
+  .profile {
+    margin: 1rem;
+  }
+  @media@website {
+    margin: 2rem 15rem;
+    height: 34rem;
+  }
 
   h2 {
     display: flex;
