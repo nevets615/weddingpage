@@ -315,27 +315,16 @@ nav a:active {
   flex-flow: column;
 }
 .article {
-  display: flex;
-  align-items: center;
-  flex-flow: column;
-  margin: 1rem;
+  margin: 2rem;
   border: 1px solid black;
   border-radius: 1rem;
   background-color: #93b9a4;
   position: relative;
-  height: 34rem;
+  height: 5rem;
   overflow: hidden;
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
   transition-duration: 0.4s;
-}
-.article .profile {
-  margin: 1rem;
-}
-@media (min-width: 840px) {
-  .article {
-    margin: 2rem 15rem;
-    height: 34rem;
-  }
+  margin: 3rem;
 }
 .article h2 {
   display: flex;
