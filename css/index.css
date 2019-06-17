@@ -380,6 +380,11 @@ nav a:active {
 .article-open {
   height: 80rem;
 }
+@media (min-width: 840px) {
+  .article-open {
+    height: 60rem;
+  }
+}
 #contact {
   display: flex;
   flex-flow: column;
