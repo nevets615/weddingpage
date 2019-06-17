@@ -329,7 +329,7 @@ nav a:active {
 .article h2 {
   display: flex;
   justify-content: center;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 @media (min-width: 840px) {
   .article h2 {
