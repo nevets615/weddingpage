@@ -385,6 +385,9 @@ nav a:active {
     height: 60rem;
   }
 }
+a {
+  font-size: 2rem;
+}
 #contact {
   display: flex;
   flex-flow: column;
