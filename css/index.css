@@ -315,6 +315,9 @@ nav a:active {
   flex-flow: column;
 }
 .article {
+  display: flex;
+  align-items: center;
+  flex-flow: column;
   margin: 2rem;
   border: 1px solid black;
   border-radius: 1rem;
@@ -330,6 +333,7 @@ nav a:active {
   display: flex;
   justify-content: center;
   font-size: 2rem;
+  margin: 1rem;
 }
 @media (min-width: 840px) {
   .article h2 {
